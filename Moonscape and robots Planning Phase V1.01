@@ -1,0 +1,393 @@
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+NASA HERA Requirements
+Moonscape and Robots Planning
+Phase v1.01
+1. Executive Summary
+The NASA HERA Moonscape and Robots project aims to enhance the realism and engagement
+of the Human Exploration Research Analog (HERA) program by incorporating a remotely
+operated robotic lunar exploration component. This project will develop an 8ft × 8ft portable
+lunar landscape model or a VR model with accompanying robotic systems that HERA
+participants (HERAnauts) can operate during their 45-day isolation missions. The project
+leverages NASA HUNCH program capabilities for development and implementation, ensuring
+educational value while meeting mission requirements. This may be an actual model or a VR
+Model.
+This initiative will enhance the psychological fidelity of HERA missions by providing participants
+with realistic lunar exploration activities while maintaining mission protocols and communication
+delays.
+Page - 1
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+2. Table of Contents
+1. Executive Summary.............................................................................................................1
+2. Table of Contents.................................................................................................................2
+3. Planning Stage.................................................................................................................... 4
+4. Project Overview..................................................................................................................5
+5. Scope...................................................................................................................................5
+1.3 Planning Timeline........................................................................................................ 5
+5. Lunar Landscape Requirements..........................................................................................5
+5.1 Physical Specifications.......................................................................................... 5
+5.2 Environmental Features.........................................................................................5
+5.3 Robotic System Requirements.................................................................................... 6
+5.3.1 General Specifications........................................................................................ 6
+5.3.2 Robot Types and Functions................................................................................ 6
+1. Transportation Robot:.............................................................................................. 6
+2. Manipulation Robot:................................................................................................. 6
+3. Support Robots:....................................................................................................... 6
+4. Communication and Control Systems......................................................................7
+6. Goal for requirements of: Student Prototype Development (2025-2026 School Year)........ 7
+6.1 Scaled Model Development.........................................................................................7
+6.2 Robot Prototype Development.....................................................................................7
+6.2 Outline Mission Scenario Testing.................................................................................7
+Requirements Checklist...........................................................................................................8
+NASA HERA Lunar Landscape Data Collection Checklist...................................................... 8
+A. Lunar Surface Specifications...............................................................................................8
+1. Crater Topography Documentation................................................................................8
+2. Surface Material Analysis.............................................................................................. 8
+B. Physical Structure Requirements........................................................................................ 8
+1. Base Structure............................................................................................................... 8
+2. Visual Barrier System.................................................................................................... 8
+C. Lighting System Requirements........................................................................................... 9
+1. General Lighting.............................................................................................................9
+2. Special Effects............................................................................................................... 9
+D. Robot Specifications........................................................................................................... 9
+1. General Requirements for All Robots............................................................................ 9
+Page - 2
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+2. Individual Robot Requirements......................................................................................9
+Transport Robot #1...................................................................................................... 9
+Manipulation Robot #2............................................................................................... 10
+Support Robots #3 & #4.............................................................................................10
+E. CubeSat - ArduSat Integration.......................................................................................... 10
+1. Physical Requirements................................................................................................ 10
+2. Operation Requirements..............................................................................................10
+F. Control Systems.................................................................................................................10
+1. Communication Requirements.....................................................................................11
+2. Data Collection.............................................................................................................11
+G. Safety and Maintenance................................................................................................... 11
+1. Safety Requirements....................................................................................................11
+2. Maintenance Procedures............................................................................................. 11
+H. Constraints and Critical Requirements..............................................................................11
+Special Issues........................................................................................................................12
+A. Project Summary...................................................................................................................14
+B. PROBLEM STATEMENT...................................................................................................14
+C. OBJECTIVES....................................................................................................................14
+D. Constraints........................................................................................................................ 14
+E. Deliverables.......................................................................................................................15
+NASA HERA Requirements........................................................................................................ 2
+Moonscape and Robots Planning Phase v1.01........................................................................ 2
+Page - 3
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+3. Planning Stage
+The planning stage is crucial as it establishes the foundational requirements for both the lunar
+landscape and robotic systems. The lunar landscape specifications detail the exact dimensions
+(8ft × 8ft) and construction requirements, including portability considerations and the need for
+visual barriers to maintain mission immersion. The robotic system requirements outline the need
+for four specialized robots with specific capabilities in transportation and manipulation, all
+controlled via Bluetooth within a 100-meter range. This phase ensures that all technical
+specifications, from camera systems to power requirements, are thoroughly defined before
+moving to implementation.
+Page - 4
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+4. Project Overview
+The project overview section establishes the fundamental framework for the entire initiative. Its
+purpose is to enhance HERA missions by providing participants with realistic lunar exploration
+activities that maintain their psychological immersion in the space environment. The scope
+encompasses not just the physical construction of the moonscape and robots but also the entire
+ecosystem of control systems, protocols, and integration requirements necessary for successful
+implementation.
+5. Scope
+The project encompasses:
+● Development of an 8ft × 8ft portable lunar landscape
+● Creation of four specialized robotic units
+● Implementation of remote control systems
+● Development of mission scenarios and testing procedures
+1.3 Planning Timeline
+● Planning Phase Start: May 15, 2025
+● Requirements Document Completion: July 31, 2025
+● Project Presentation Website Launch: August 8, 2025
+5. Lunar Landscape Requirements
+5.1 Physical Specifications
+● Dimensions: 8ft × 8ft (2.44m × 2.44m)
+● Height of Side Walls: Minimum 3ft (0.91m)
+● Design Concept: Foldable into 4ft × 4ft sections for portability
+● Surface Features: If possible, based on actual lunar south pole crater formations
+● Lighting: Integrated system for both day and night operations
+●
+5.2 Environmental Features
+● Crater-within-crater design based on South Pole region topology
+Page - 5
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+● Integration of 3D printed rocks and surface features
+● Scaled representation of actual lunar surface materials
+● Visual barriers to prevent external world visibility
+● Portable design for easy assembly/disassembly
+●
+5.3 Robotic System Requirements
+5.3.1 General Specifications
+● Quantity: 4 specialized robots
+● Control System: Bluetooth-enabled remote control
+● Operating Range: 100 meters from the HERA module
+● Camera Systems: Standard and infrared options with SD card storage
+● Power Requirements: TBD during planning phase
+5.3.2 Robot Types and Functions
+1. Transportation Robot:
+○ Payload capacity: 0.5-1.0 lb
+○ Ability to carry 10cm³ cube
+○ Mobile platform with a stable base
+2. Manipulation Robot:
+○ Lifting mechanism/arm
+○ Precision placement capabilities
+○ Cube transfer functionality
+3. Support Robots:
+● Specialized functions TBD during planning
+● Complementary capabilities to primary units
+Page - 6
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+4. Communication and Control Systems
+● Bluetooth control interface compatible with HERA systems
+● Video feed storage and transmission capabilities
+● Mission control monitoring interface
+● Data logging and analysis capabilities
+●
+6. Goal for requirements of: Student Prototype Development
+(2025-2026 School Year)
+6.1 Scaled Model Development
+● 2ft × 2ft prototype landscape
+● Scale factor: 1:4 of the final design
+● Integration with the NASA HUNCH program guidelines
+● Student team collaboration framework
+6.2 Robot Prototype Development
+● Arduino-based control systems
+● Scaled robot designs
+● Testing and validation protocols
+● Documentation requirements
+6.2 Outline Mission Scenario Testing
+● Day/night operation verification
+● Communication system validation
+● Emergency procedure testing
+● User interface evaluation
+Page - 7
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+Requirements Checklist
+NASA HERA Lunar Landscape Data Collection Checklist
+A. Lunar Surface Specifications
+1. Crater Topography Documentation
+● [ ] Identify a specific South Pole crater to model (e.g., Shackleton Crater)
+● [ ] Calculate the scaling factor from the actual 21km crater to 8ft space
+● [ ] Document elevation changes and depth requirements
+● [ ] Map out crater-within-crater features
+● [ ] Identify key surface landmarks for navigation
+2. Surface Material Analysis
+● [ ] Document lunar regolith composition requirements
+● [ ] List acceptable simulant materials for surface texture
+● [ ] Record color variations needed for a realistic appearance
+● [ ] Identify materials for creating realistic rock formations
+● [ ] Document surface reflectivity requirements
+B. Physical Structure Requirements
+1. Base Structure
+● [ ] Measure exact dimensions (8ft × 8ft)
+● [ ] Calculate load-bearing requirements for surface materials
+● [ ] Document folding/portability requirements (4ft sections)
+● [ ] Specify assembly/disassembly procedure requirements
+● [ ] List structural support specifications
+2. Visual Barrier System
+Page - 8
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+● [ ] Document minimum barrier height (3ft)
+● [ ] Select appropriate curtain material specifications
+● [ ] List mounting system requirements
+● [ ] Specify light-blocking capabilities
+● [ ] Document installation/removal procedures
+C. Lighting System Requirements
+1. General Lighting
+● [ ] Document LED specifications for day/night simulation
+● [ ] Calculate power requirements for the lighting system
+● [ ] Map lighting placement for minimal shadows
+● [ ] Specify control system requirements
+● [ ] List backup lighting requirements
+2. Special Effects
+● [ ] Document shadow simulation requirements
+● [ ] Specify lunar day/night cycle timing
+● [ ] List emergency lighting requirements
+● [ ] Document light intensity requirements
+● [ ] Specify color temperature requirements
+D. Robot Specifications
+1. General Requirements for All Robots
+● [ ] Document maximum dimensions for each robot
+● [ ] Specify minimum separation distances between robots
+● [ ] List camera system requirements
+● [ ] Document Bluetooth range requirements (100m max)
+● [ ] Specify battery life requirements
+2. Individual Robot Requirements
+Transport Robot #1
+● [ ] Document payload capacity (0.5-1.0 lb)
+Page - 9
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+● [ ] Specify ArduSat carrying mechanism
+● [ ] List mobility requirements
+● [ ] Document camera positioning
+● [ ] Specify wheel system requirements
+Manipulation Robot #2
+● [ ] Document arm reach requirements
+● [ ] Specify lifting mechanism capabilities
+● [ ] List precision placement requirements
+● [ ] Document sensor requirements
+● [ ] Specify control system requirements
+Support Robots #3 & #4
+● [ ] Document specialized function requirements
+● [ ] Specify auxiliary equipment needs
+● [ ] List backup capability requirements
+● [ ] Document communication requirements
+● [ ] Specify sensor package requirements
+E. CubeSat - ArduSat Integration
+1. Physical Requirements
+● [ ] Document exact dimensions (10cm cube)
+● [ ] Specify weight requirements (0.5-1.0 lb)
+● [ ] List handling procedures
+● [ ] Document storage requirements
+● [ ] Specify safety protocols
+2. Operation Requirements
+● [ ] Document loading/unloading procedures
+● [ ] Specify transfer protocols between robots
+● [ ] List emergency handling procedures
+● [ ] Document maintenance requirements
+● [ ] Specify testing protocols
+F. Control Systems
+Page - 10
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+1. Communication Requirements
+● [ ] Document Bluetooth specifications
+● [ ] List range testing procedures
+● [ ] Specify interference prevention measures
+● [ ] Document backup communication systems
+● [ ] List security requirements
+2. Data Collection
+● [ ] Specify camera data storage requirements
+○ Colour
+○ Black and White
+○ IR
+● [ ] List sensor data collection needs
+● [ ] Document data transmission protocols
+● [ ] Specify data backup procedures
+● [ ] List analysis requirements
+G. Safety and Maintenance
+1. Safety Requirements
+● [ ] Document operational safety procedures
+● [ ] List emergency shutdown protocols
+● [ ] Specify maintenance schedules
+● [ ] Document inspection requirements
+● [ ] List safety equipment needs
+2. Maintenance Procedures
+● [ ] Document cleaning protocols
+● [ ] Specify repair procedures
+● [ ] List spare parts requirements
+● [ ] Document calibration procedures
+● [ ] Specify storage requirements
+H. Constraints and Critical Requirements
+Page - 11
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+● [ ] List of Constraints ( Physical, Time, Functionality, etc. )
+● [ ] Software
+● [ ] Reliability
+● [ ] Realism
+Special Issues
+One of the additions would be a lunar landscape that allows the participants to control robots
+and potentially place ArduSAT Cube or many on a lunar landscape. The HERANAUTS would
+retrieve the cubes or robots that are exploring on their behalf remotely while they're in their
+lodging and lab.
+The objective of this phase of the project is to gather the requirements and potential
+requirements, plus scenarios that the Hera facilitators may be interested in setting up for their
+participants in the simulation. This project will include the following major components.
+1. Testing a single Arduino robot with a Bluetooth remote control and a camera.
+2. Define the visual scope that the robots would have that ensures that the product will
+always remain within the scenario. Specifically, when the robots are moving around, they
+will not see the outside world. Questions we will have to ask include the impact of the
+Sun on the facility both from a scenario perspective and from a survivability in the human
+in the human elements or the outside elements of this project additionally are there
+concerns about lighting that may take them outside of the scenario and do they have to
+endure both day and night in a lunar landscape.
+3. The initial scenario proposed is for all the robots to work inside a crater and that would
+be the physical limitations the actual size sounds like it could be 8 ft by 8 ft but actual
+dimensions must be considered also things like when a robot hits a rock or another small
+divot in within the crater or comes out of another smaller crater will the camera reflect
+higher and hit the earth's sky with a visual. Hence, this project has to include potentially
+a backdrop that will hide the Earth from the view of the HERANAUTS another aspect is
+once the dimensions and the overall scope of the sandbox has been defined then the
+cad drawings for the outer frame should be defined Any other requirements such as
+stones and rocks and positioning of pieces the takeoff zones or placement zones of the
+robot so that we know that it'll stay within that environment.
+Page - 12
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+4. The final deliverable will be a comprehensive report and drawings of the external
+aspects. That would be given to the requesters and sent to NASA hunt students so they
+may work on phase two during the school year.
+Page - 13
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+A. Project Summary
+B. PROBLEM STATEMENT
+a. The facilitators of the nassahara projects with the mission starting in January
+2026 require more activities for the haranots to test challenges that the
+astronauts will encounter in space this includes a navigating to multiple locations
+on the moon and to do this they also need to have they also need to have a
+facility.
+b. That they can drive robots on so therefore we have two objectives to solve haha
+personally I don't know how you survive with just your tablet but keep up the
+good work and hope things went well for you today, call me anytime, take care,
+bye.
+C.OBJECTIVES
+a. Create an 8 ft by 8 ft collapsible environment that will be used to mimic a small
+segment of the Moon in the south whole area at shackles Shackles Crater. In
+addition, we would like robots that could carry a CubeSat into this lunar
+environment. The features for this Terrain must also include appropriate
+Boulders, Stones, craters, Etc.
+b. In addition we have to have a way of managing some sort of regolith facsimile
+and have the ability to keep track of all this terrain as we move forward up with
+setting up different locations and different environments the last issue in the
+subjective is to try and set up a way to isolate the cameras of the different robots
+so they do not accidentally see ceilings and walls that would represent the
+simulation being violated
+c. We would like to enclose it and in one of the examples that was done this
+summer students propose the type of tent as a solution obviously with changing
+the internals of this tent to make it to comply to the 8 foot by 8 ft collapsible
+environment so that this whole thing can be stored inside a cabinet in the
+nassahara facility in Johnson Space Center.
+D.Constraints
+Page - 14
+NASA HERA Requirements
+Moonscape and Robots Planning Phase v1.01
+a. some of the key constraints here include number one the ability to collapse the 8
+ft by 8 ft Terrain or lunar landscape in addition to keep track of all the pieces and
+parts that represent the surface can change locations of things like craters or
+Hills that might be there along with the smaller Boulders and the stones and
+potentially put in facilities like some sort of mining/water recovery plants at
+different locations also have spots where light would be managed if we decide to
+do night options soon the next mission or two.
+b. The other unique part of this is that the haranots will be going from a virtual
+reality environment to an facilities environment where they're controlling the
+robots by a computer screens optionally if you had some sort of smart facility in
+the robots they might be able to do some scanning or other fun AI related smart
+robot related missions that the heronauts would watch the results or maybe have
+to do a rescue mission if the AI messes up anyways things to think about they will
+also I have to carry a Cubesat.
+E. Deliverables
+a. Summary of deliverables include the lunar moon skate and up to four lunar
+robots that have different functionality but provide the capability to take a cubesat
+from the Harris facility and drive it over the lunar landscape which would require
+the cubesat to be put on top of the robot and also to be removed and placed at
+the end of their trip all robots will have to have some sort of visual control system
+and the ability to drive the robot using a laptop or a computer with multiple
+display screens one of those display screens potentially have to be used for each
+robot
