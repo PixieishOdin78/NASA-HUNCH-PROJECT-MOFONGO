@@ -1,74 +1,67 @@
-# HERA Mars-Scape & Robotics Missions
+# NASA HERA Moonscape and Robots Project
 
-This repository captures the HERA mission arc for innovative, out-of-the-box Mars exploration scenarios spanning Missions 9 through 14.
+## Overview
 
-## Mission Overview
+The NASA HERA Moonscape and Robots project is a planning and prototype effort to bring a realistic lunar exploration experience into the Human Exploration Research Analog (HERA) environment. The goal is to create an immersive 8 ft × 8 ft lunar landscape and a set of robotic systems that allow HERAnauts to explore, retrieve payloads, and complete mission tasks during long-duration isolation simulations.
 
-HERA Mars-Scape & Robotics Missions -
-Innovative / Out-of-the-Box Missions (Missions 9-14)
-ROBOTICS x AUTONOMY x EXPLORATION x REAL-WORLD IMPACT
+This project supports NASA HUNCH educational goals by combining robotics, engineering, lunar science, mission operations, and human factors in a realistic scenario aligned with current space exploration objectives.
 
-These missions emphasize autonomy, collaboration, AI, resilience, and realistic Mars mission operations.
+## Mission Need
 
-## Mission Sequence
+HERA facilitators need more activities to test challenges astronauts may encounter in space, including navigating to multiple locations on the Moon, managing robotic support operations, and maintaining realism in a controlled analog environment. The proposed moonscape creates a space where participants can operate robots, carry and deploy payloads, and interact with lunar terrain features such as craters, rocks, regolith, and lighting variations.
 
-### Mission 9 - Lost Communications!
+## Project Goals
 
-- Handle a deliberate communications outage.
-- Safely halt, retrace, go to a safe point, or switch to backup communications.
-- Reconnect using a student-designed loss-of-communications protocol.
+- Build a portable 8 ft × 8 ft lunar environment to simulate a section of the Moon
+- Include realistic terrain features such as craters, stones, rocks, and regolith-like surfaces
+- Use four specialized robots for transport, manipulation, support, and mission operations
+- Support Bluetooth-based command and control within a 100-meter operating range
+- Provide camera and sensor feedback for remote exploration and mission monitoring
+- Integrate CubeSat or ArduSat payload handling into the mission scenario
+- Maintain a safe, controlled, and visually isolated simulation environment
 
-### Mission 10 - AI Mars Navigator
+## System Requirements Snapshot
 
-- Reach a destination without a preset route.
-- Detect rocks, craters, slopes, and blocked paths using sensors.
-- Autonomously reroute when a new obstacle appears.
-- Prioritize safe navigation and real-time decision-making.
+### Lunar Landscape
+- 8 ft × 8 ft footprint
+- Minimum 3 ft side-wall height
+- Foldable / portable design
+- Crater-within-crater terrain concept based on lunar south polar features
+- Visual barriers to prevent outside-world visibility
+- Day/night lighting system
 
-### Mission 11 - Search and Rescue on Mars
+### Robotic Platform
+- Four specialized robots
+- Bluetooth remote-control system
+- Camera and optional infrared systems
+- Payload handling for 10 cm cube or similar mission objects
+- Support for navigation, manipulation, and retrieval tasks
 
-- Search an approximate area for lost equipment.
-- Identify the correct object using vision, RFID, thermal/IR, or similar technology.
-- Retrieve it and return it to the HERA base.
+### Mission Operations
+- Mission scenarios for lunar navigation and resource recovery
+- Remote robot control with monitoring screens or displays
+- Data logging for camera, sensor, and control telemetry
+- Testing for communication, reliability, and emergency procedures
 
-### Mission 12 - Four Robots, One Mission
+## Key Constraints
 
-Use 4 robots: Scout, Transporter, Manipulator, and Mining Robot.
+- The landscape must be portable and collapsible for storage and transport
+- Mission realism must not be broken by outside visibility or ceiling/wall exposure
+- Robot systems must stay within the scenario environment and operate reliably
+- The environment must support future mission variations, including night operations and changing terrain layouts
+- Safety, maintenance, and emergency procedures must be built into the design
 
-- Scout: explore the environment and identify points of interest.
-- Transporter: move materials or equipment between locations.
-- Manipulator: handle objects and complete precise tasks.
-- Mining Robot: extract or collect resources.
-- Coordinate their roles to complete one shared mission.
-- Allow Mission Control to track robots and reassign tasks if needed.
+## Deliverables
 
-### Mission 13 - Build a Mars Resource Station
+The project will produce:
+- A conceptual lunar moonscape design
+- A set of four robot requirements and mission roles
+- Prototype development plans for the 2025-2026 school year
+- Testing procedures for communication, navigation, and emergency operations
+- A final requirements and design report for future development phases
 
-- Collect, process, and measure Martian materials.
-- Build infrastructure or operational systems for extended exploration.
-- Support a sustained robotic presence on Mars.
+## Related Document
 
-### Mission 14 - 45-Day Mars Mission: HERA Grand Challenge
+Full technical planning requirements: `NASA HERA Requirements Moonscape and Robots Planning Phase v1.01.md`
 
-- Collect regolith from designated areas.
-- Process and measure the material.
-- Deposit it into labeled storage containers or an inventory system.
-- Coordinate robots with minimal direct intervention and conserve power.
-- Handle changing objectives, obstacles, failures, and discoveries.
-- Return samples and payloads.
-- Generate a final mission report with telemetry, maps, imagery, and lessons learned.
-
-## Mission Themes
-
-- Autonomy
-- Collaboration
-- AI-driven decision-making
-- Resilience
-- Real-world Mars mission operations
-- Safety and mission continuity
-
-## Final Challenge Summary
-
-Innovative missions emphasize autonomy, collaboration, AI, resilience, and realistic Mars mission operations.
-
-This mission set pushes the HERA program toward more advanced, realistic, and high-impact robotic exploration scenarios.
+For the complete planning document, see the detailed requirements file in the repository.
