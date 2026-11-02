@@ -1,0 +1,162 @@
+NASA HERA Requirements Moonscape and Robots Planning Phase v1.01
+
+Executive Summary
+The NASA HERA Moonscape and Robots project is designed to improve the realism and engagement of the Human Exploration Research Analog (HERA) program by adding a remotely operated robotic lunar exploration component. This project will develop an 8 ft × 8 ft portable lunar landscape model or a VR model, along with robotic systems that HERA participants, known as HERAnauts, can operate during their 45-day isolation missions.
+
+This effort supports the NASA HUNCH program by integrating educational development, engineering, and mission realism. The goal is to create a realistic lunar exploration environment that allows participants to experience mission tasks similar to those encountered by astronauts while maintaining the operational discipline and communication delays associated with a simulated space mission.
+
+Table of Contents
+Executive Summary Planning Stage Project Overview Scope Planning Timeline Lunar Landscape Requirements Physical Specifications Environmental Features Robotic System Requirements General Specifications Robot Types and Functions Transportation Robot Manipulation Robot Support Robots Communication and Control Systems Student Prototype Development Requirements Scaled Model Development Robot Prototype Development Mission Scenario Testing Requirements Checklist Lunar Landscape Data Collection Checklist Surface Specifications Physical Structure Requirements Lighting System Requirements Robot Specifications CubeSat/ArduSat Integration Control Systems Safety and Maintenance Constraints and Critical Requirements Special Issues Project Summary Problem Statement Objectives Constraints Deliverables
+
+Planning Stage
+The planning stage is crucial because it establishes the requirements for both the lunar landscape and the robotic systems. The lunar landscape section defines the exact dimensions, construction requirements, portability needs, and visual barriers required to maintain mission immersion. The robotic system section outlines the need for four specialized robots with specific capabilities in transportation and manipulation, all controlled via Bluetooth within a 100-meter range.
+
+This phase ensures that all technical specifications, including camera systems, power requirements, materials, and control interfaces, are clearly defined before implementation begins.
+
+Project Overview
+The project overview section establishes the basic framework for the entire initiative. Its purpose is to enhance HERA missions by giving participants realistic lunar exploration activities that maintain psychological immersion in the space environment.
+
+The scope goes beyond the physical construction of the moonscape and robots. It also includes the control systems, protocols, integration requirements, testing procedures, and operational scenarios necessary for successful implementation.
+
+Scope
+The project includes the following:
+
+Development of an 8 ft × 8 ft portable lunar landscape Creation of four specialized robotic units Implementation of remote control systems Development of mission scenarios and testing procedures Integration of mission data, video, and telemetry systems Design of safety and maintenance operations
+
+Planning Timeline
+
+Planning Phase Start: May 15, 2025 Requirements Document Completion: July 31, 2025 Project Presentation Website Launch: August 8, 2025
+
+Lunar Landscape Requirements
+6.1 Physical Specifications
+
+The lunar landscape should be approximately 8 ft × 8 ft and should have a minimum side wall height of 3 ft. The structure should be foldable into 4 ft × 4 ft sections to improve portability and storage. Surface features should be based on the actual lunar south pole crater formations where possible, and the terrain should include integrated lighting for both day and night operations.
+
+6.2 Environmental Features
+
+The landform should include a crater-within-crater design based on South Pole region topology. It should incorporate 3D printed rocks and surface features, scaled representations of lunar materials, and visual barriers that prevent the outside world from being visible. The design should be portable, easy to assemble and disassemble, and should mimic realistic lunar terrain conditions.
+
+6.3 Surface and Mission Realism Requirements
+
+The surface should include realistic crater depth and elevation variation, rock and boulder placement to challenge navigation, and terrain layouts that support different mission objectives. The environment should include a barrier or enclosure to prevent visible outside surroundings. A controlled lighting system should allow lunar day and night simulation while maintaining realism and mission immersion.
+
+Robotic System Requirements
+7.1 General Specifications
+
+The project requires four specialized robots. These robots should be controlled with a Bluetooth-enabled remote system and should operate within a range of 100 meters from the HERA module. The robots should use standard and infrared camera systems with SD card storage. Power requirements will be defined during the planning phase, and the robots should be designed for stable performance across uneven terrain and mission conditions.
+
+7.2 Robot Types and Functions
+
+Transportation Robot
+
+The transportation robot should have a payload capacity of 0.5–1.0 lb and should be able to carry a 10 cm³ cube. It should include a mobile platform with a stable base and should be able to move payloads over uneven terrain.
+
+Manipulation Robot
+
+The manipulation robot should include a lifting mechanism or arm, precision placement capability, and cube transfer functionality. It should be able to perform careful handling and placement tasks in the lunar environment.
+
+Support Robots
+
+The support robots will have specialized functions to be defined during planning. Their responsibilities should complement the primary units and provide support for reconnaissance, assistive transport, or sensor deployment.
+
+Communication and Control Systems
+
+The robots should use a Bluetooth control interface that is compatible with HERA systems. They should also have video feed storage and transmission capability, mission control monitoring, data logging, and analysis features. The system should include error handling and recovery protocols to support mission resilience.
+
+Goal for Student Prototype Development (2025–2026 School Year)
+8.1 Scaled Model Development
+
+The project should include a 2 ft × 2 ft prototype landscape scaled to 1:4 of the final design. This prototype should integrate with NASA HUNCH program guidelines and support student team collaboration. The design should be modular so functionality can be tested before the full-scale build is developed.
+
+8.2 Robot Prototype Development
+
+The robot prototype should use Arduino-based control systems, scaled robot designs, testing and validation protocols, and documentation standards. Safety and reliability checks should be built into the development process.
+
+8.3 Outline Mission Scenario Testing
+
+Mission scenario testing should include day and night operation verification, communication system validation, emergency procedure testing, user interface evaluation, and validation of mission objectives.
+
+Requirements Checklist
+NASA HERA Lunar Landscape Data Collection Checklist
+
+A. Lunar Surface Specifications
+
+Identify a specific South Pole crater to model, such as Shackleton Crater. Calculate the scaling factor from the actual 21 km crater to the 8 ft test space. Document elevation changes and depth requirements. Map crater-within-crater features. Identify key surface landmarks for navigation. Document surface texture and visual realism requirements.
+
+B. Physical Structure Requirements
+
+Measure exact dimensions of the terrain. Calculate load-bearing requirements for surface materials. Document folding and portability requirements. Specify assembly and disassembly procedures. List structural support specifications. Document storage and transport requirements.
+
+C. Lighting System Requirements
+
+Document LED specifications for day and night simulation. Calculate the power requirements for the lighting system. Map lighting placement to minimize shadows and unnatural glare. Specify control system requirements. List backup lighting requirements. Define emergency lighting requirements.
+
+D. Robot Specifications
+
+Document maximum dimensions for each robot. Specify minimum separation distances between robots. List camera system requirements. Document Bluetooth range requirements, with a maximum of 100 m. Specify battery life requirements. Define wheel, track, or mobility system needs.
+
+E. CubeSat-ArduSat Integration
+
+Document exact dimensions of the cube. Specify weight requirements. List handling procedures. Document storage requirements. Specify safety protocols. Define loading and unloading requirements.
+
+F. Control Systems
+
+Document Bluetooth specifications. List range testing procedures. Specify interference prevention measures. Document backup communication systems. List security requirements. Define data logging and telemetry expectations.
+
+G. Safety and Maintenance
+
+Document operational safety procedures. List emergency shutdown protocols. Specify maintenance schedules. Document inspection requirements. List safety equipment needs. Define cleaning, calibration, and repair procedures.
+
+H. Constraints and Critical Requirements
+
+Physical constraints Time constraints Functionality constraints Software constraints Reliability constraints Realism constraints
+
+Special Issues and Design Considerations
+One key addition would be a lunar landscape that allows participants to control robots and potentially place ArduSAT cubes or other payloads on the lunar surface. HERAnauts would retrieve those cubes or robots remotely while they are in their lodging and lab spaces.
+
+The objective of this phase is to collect the requirements and scenarios that HERA facilitators may be interested in using in the simulation. This project will include the following major components:
+
+Testing a single Arduino robot with a Bluetooth remote control and a camera Defining the visual scope so that the robots remain within the scenario and do not see the outside world Evaluating how lighting affects realism, survivability, and mission continuity Defining the initial scenario in which robots work inside a crater with defined physical limits Producing a final report and engineering drawings for phase two development
+
+Visual Isolation and Earth Visibility
+
+A critical issue is preventing the robot camera from seeing the outside environment. If the robot enters a crater or reaches a high point, the camera may show walls, ceiling, or the Earth’s sky, which would break the mission illusion. To avoid this, the project must include visual barriers, camera limitations, and environmental layout decisions that keep the system within the intended lunar scenario.
+
+Terrain and Layout Planning
+
+The actual landscape size may be 8 ft by 8 ft, but dimensions must be carefully considered. If a robot hits a rock, a divot, or a smaller crater, its camera view may change and reveal the outside environment. The project therefore requires a defined frame, a controlled backdrop, and physically planned locations for rocks, boulders, takeoff zones, and task areas so that the robot remains within the simulation.
+
+Problem Statement
+The facilitators of the NASA HERA program, with the mission beginning in January 2026, require more activities for HERAnauts to test challenges that astronauts encounter in space. This includes navigating to multiple locations on the Moon and creating a facility where robots can be driven across a lunar-style environment.
+
+This creates a need for a realistic lunar simulation environment in which participants can control robots, complete mission tasks, and experience space-like conditions.
+
+Objectives
+Create an 8 ft by 8 ft collapsible environment that mimics a small segment of the Moon in the South Pole region near Shackleton Crater. Use robots that can carry a CubeSat into the lunar environment. Include appropriate boulders, stones, craters, and terrain features. Provide a way to manage a regolith-like surface and keep track of terrain as mission scenarios change. Isolate robot cameras so they do not see ceilings, walls, or other objects that violate the simulation. Enclose the environment in a structure that collapses for storage and transport.
+
+Constraints
+The 8 ft by 8 ft terrain must collapse and be easily stored or transported. Surface features and terrain elements must be repositionable for different mission scenarios. The environment must support varied layouts such as crater zones, rocky surfaces, and mining or recovery areas. The system must support day and night lighting changes in later mission phases. The HERAnauts will move between a virtual environment and a physical facility environment, so the robot control interface must remain intuitive and realistic. The robots may need to carry, transfer, or retrieve a CubeSat payload while remaining within the mission scenario.
+
+Deliverables
+The project will produce the following:
+
+A summary of deliverables, including the lunar moonscape and up to four lunar robots Robots with different functionality that provide the capability to transport a CubeSat from the HERA facility over a lunar landscape A system for placing and removing the CubeSat at the end of the mission Visual control systems and computer-based monitoring for each robot A final report documenting requirements, design approaches, and testing recommendations
+
+Final Summary
+This project defines the planning requirements for a realistic lunar landscape and four-robot mission system to support HERA analog activities. The built environment and robots are intended to simulate lunar exploration, robot operation, cube transport, and mission realism in a portable and scalable format.
+
+This planning phase provides the requirements and scenarios needed to guide prototype development during the 2025–2026 school year. Successful completion of this phase will provide the foundation for a fully designed, testable, and operational lunar environment for future HERA missions.
+
+Quick Reference Sheet
+
+Core Requirements
+
+8 ft × 8 ft lunar terrain model Minimum 3 ft side walls Foldable and portable structure Four specialized robots Bluetooth control within 100 meters Camera support including infrared CubeSat/ArduSat payload handling Realistic lighting and visual barriers Safety and maintenance standards
+
+Primary Mission Goals
+
+Lunar terrain exploration Robot navigation and obstacle avoidance Payload relocation and retrieval Mission realism and HERA immersion Prototype development and testing
+
+Design Priority Areas
+
+Realism Safety Portability Mission continuity Reliability Visual isolation
