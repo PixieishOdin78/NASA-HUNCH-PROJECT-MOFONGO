@@ -174,3 +174,5 @@ The supplied BOM describes prices as US retail estimates researched on **10 Nove
 The proposed Scout is a Raspberry Pi 5-based, six-wheeled sensing rover intended to map and survey terrain for the four-robot Mission 12 team. Its core concept combines a UGV02 chassis, LiDAR, camera, ROS 2 compute, Wi-Fi coordination, and a protected power system. Optional depth sensing, NVMe storage, and camera pan-tilt can be added after the basic computer, camera, mobility, and mapping functions are proven.
 
 The supplied estimates are **$968.99 for an all-in Scout** and **$625.99 for a minimum-viable Scout**. The listed **$2,304 four-robot estimate requires reconciliation** because it does not equal four units at either per-robot price. Before ordering, confirm current prices and hardware specifications, resolve ROS 2 and operating-system compatibility, test the power and communications systems, and separate shared fleet tools from per-robot costs. Build in waves so each stage is tested before the next set of optional hardware is purchased.
+
+## to do list= find specs of components listed here.
