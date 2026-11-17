@@ -39,6 +39,8 @@
 | 18650 charger or three-cell charging sled | 1 | $20.00 | $20.00 | Charging/pack rotation. The source suggests the charger may be shared across the fleet. |
 | DC-DC buck converter, 12 V to 5 V / 5 A | 1 | $16.00 | $16.00 | Proposed regulated Pi supply. Confirm converter capacity, thermal performance, and chassis output limits. |
 | XT60 / JST-XH pigtails, 18 AWG wire, 3 A and 5 A inline fuses | 1 set | $12.00 | $12.00 | Power harness and circuit protection. Fuse sizing and wiring should be reviewed against actual loads and component instructions. |
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/98f5fe5a-2afe-45d6-a29a-2d3c932faded" />
+
 
 ### Perception
 
