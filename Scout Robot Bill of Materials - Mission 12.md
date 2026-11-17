@@ -30,6 +30,21 @@
 | NVMe SSD, 256 GB, with PCIe-to-M.2 HAT+ | 1 | $42.00 | $42.00 | Optional, recommended for rosbag recordings and map storage; source estimate includes approximately $13.95 for the HAT and $26 for the SSD. |
 | Raspberry Pi 27 W USB-C PSU or 5 V / 5 A UBEC | 1 | $12.00 | $12.00 | Bench power or flashing. For rover operation, the proposed design uses a regulated 5 V / 5 A supply from the battery system. |
 
+Raspberry Pi 5, 4 GB RAM
+<img width="2000" height="1518" alt="image" src="https://github.com/user-attachments/assets/f14ecc1d-6922-4b39-8436-954aaa585614" />
+
+microSD card, 64 GB, A2/U3
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/7e2b32ab-4e64-495c-bdfe-a18b46bd591b" />
+
+Raspberry Pi Active Cooler
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b388c612-2994-48e6-a4b4-62557eef7737" />
+
+NVMe SSD, 256 GB, with PCIe-to-M.2 HAT+
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/8c04e6ab-8de8-4a8d-9b5d-e8d51c7e734c" />
+
+Raspberry Pi 27 W USB-C PSU or 5 V / 5 A UBEC
+<img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/73390d9d-7d83-4a23-a425-413ae4f10cfa" />
+
 ### Chassis and Drive
 
 | Part | Qty. | Unit cost | Line cost | Purpose / notes |
@@ -39,6 +54,21 @@
 | 18650 charger or three-cell charging sled | 1 | $20.00 | $20.00 | Charging/pack rotation. The source suggests the charger may be shared across the fleet. |
 | DC-DC buck converter, 12 V to 5 V / 5 A | 1 | $16.00 | $16.00 | Proposed regulated Pi supply. Confirm converter capacity, thermal performance, and chassis output limits. |
 | XT60 / JST-XH pigtails, 18 AWG wire, 3 A and 5 A inline fuses | 1 set | $12.00 | $12.00 | Power harness and circuit protection. Fuse sizing and wiring should be reviewed against actual loads and component instructions. |
+
+Waveshare UGV02 6×4 chassis, 252 × 230 × 94 mm, 2 kg
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/6e460bc4-2050-4993-aad4-d8444b6d2a25" />
+
+18650 Li-ion cells, 3500 mAh, 10 A
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/c1ac0cad-10c1-4bdc-ac00-bfdfbc18bdc5" />
+
+18650 charger or three-cell charging sled
+<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/7fcea1b1-27f5-4fe9-bea2-30151facde16" />
+
+DC-DC buck converter, 12 V to 5 V / 5 A
+<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/0b8dd424-f560-4a67-8646-9c4f79b3d7a2" />
+
+XT60 / JST-XH pigtails, 18 AWG wire, 3 A and 5 A inline fuses
+<img width="281" height="450" alt="image" src="https://github.com/user-attachments/assets/61b254f2-825a-46c2-91ad-8fd0a8e0b705" />
 
 ### Perception
 
